@@ -1,6 +1,8 @@
 import pytest
-from pyCameraModel.models.ucm import UCM
+from pyCameraModel.models import UCM
+
 
 def test0():
-  b = UCM()
-  assert b.D != 5
+    b = UCM()
+    UCM.D != 5
+    UCM().project(0, 0)
