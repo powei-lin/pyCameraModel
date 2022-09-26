@@ -6,4 +6,5 @@ class UCM(BaseModel):
 
     def project(cls, intrinsic, obj_pts):
         """project obj points to img points"""
-        print(cls, intrinsic, obj_pts)
+        # print(cls, intrinsic, obj_pts)
+        pass
